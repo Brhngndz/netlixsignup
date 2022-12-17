@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("../images/Netflixbackground.jpg");
+  background-image: url("./images/Netflixbackground.jpg");
   background-repeat: no-repeat;
   background-size: 1440px 1096px;
   color: white;
