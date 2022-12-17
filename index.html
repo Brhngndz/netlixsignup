@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Survey Form</title>
+    <link rel="stylesheet" href="netflixcss.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/Netflix-N-Symbol-logo-red-transparent-RGB-png-removebg-preview.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="title">NET<span>FLIX</span></h1>
+      <h3 class="description">
+        Thank you for signing up to Netflix. Tell me more about yourself.
+      </h3>
+      <div class="survey">
+        <form class="form" action="" method="post">
+          <div class="input">
+            <br />
+            <label for="name" class="name2">Name <br /></label>
+
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="enter your name"
+              class="box"
+            />
+          </div>
+          <div class="input">
+            <label for="age">Age <br /></label>
+
+            <input
+              type="number"
+              name="age"
+              id="age"
+              placeholder="age"
+              class="box"
+            />
+          </div>
+          <div class="input">
+            <label for="email">Email <br /></label>
+
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="enter your Email"
+              class="box"
+            />
+          </div>
+          <div class="input">
+            <label for="content">Content Type <br /></label>
+            <select name="content" id="content" class="box">
+              <option value="series">Series</option>
+              <option value="film">Movies</option>
+              <option value="cartoon">Cartoon</option>
+              <option value="documantery">Documantery</option>
+            </select>
+          </div>
+          <div class="input">
+            <label for="movietype">Movie Type <br /></label>
+            <label>
+              <input type="checkbox" name="movietype1" id="movietype1" />
+              Comedy <br
+            /></label>
+
+            <label
+              ><input type="checkbox" name="movietype2" id="movietype2" />
+              Action <br
+            /></label>
+
+            <label
+              ><input type="checkbox" name="movietype3" id="movietype3" />
+              Romance <br />
+            </label>
+            <br />
+          </div>
+          <div class="input">
+            <label for="gender">Gender <br /></label>
+            <label>
+              <input type="radio" name="gender" id="male" />Male <br />
+            </label>
+            <label>
+              <input type="radio" name="gender" id="female" />Female <br />
+            </label>
+            <label
+              ><input type="radio" name="gender" id="other" />Other <br
+            /></label>
+          </div>
+          <div class="input">
+            <label for="feed">Feedback <br /></label>
+            <textarea
+              name="feed"
+              id=""
+              cols=""
+              rows=""
+              placeholder="any comment"
+            ></textarea>
+            <input type="submit" value="Send" class="button" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
